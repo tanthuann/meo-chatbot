@@ -1,3 +1,10 @@
 {
-  "rewrites": [{ "source": "/webhook/(.*)", "destination": "/webhook" }]
+  "version": 1,
+  "name": "meo-chatbot",
+  "builds": [
+     { "src": "app.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+     { "src": "/(.*)", "dest": "/app.js" }
+  ]
 }

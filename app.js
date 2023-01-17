@@ -147,4 +147,4 @@ function callSendAPI(sender_psid, response) {
   );
 }
 
-module.export = app;
+module.exports = app;
