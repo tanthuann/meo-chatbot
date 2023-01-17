@@ -146,3 +146,5 @@ function callSendAPI(sender_psid, response) {
     }
   );
 }
+
+export default app;
