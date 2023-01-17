@@ -5,7 +5,7 @@
   "description": "An example webhook for Facebook Messenger inter-bot tutorial.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node webhook/index.js"
   },
   "repository": {
     "type": "git",
