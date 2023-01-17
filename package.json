@@ -3,7 +3,7 @@
   "name": "meo-bot",
   "version": "1.0.0",
   "description": "An example webhook for Facebook Messenger inter-bot tutorial.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
